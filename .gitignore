@@ -1,0 +1,45 @@
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# RAG data
+# =========================
+backend/data/private/
+backend/chroma_db/
+*.pdf
+
+# =========================
+# Ollama / models
+# =========================
+models/
+
+# =========================
+# Android
+# =========================
+.gradle/
+.idea/
+local.properties
+**/build/
+*.iml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
