@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit
 
 object RetrofitClient {
 
-    private const val BASE_URL = "http://192.168.11.54:8000/"
+    private const val BASE_URL = "BuildConfig"
 
     private val okHttpClient = OkHttpClient.Builder()
         .connectTimeout(30, TimeUnit.SECONDS)
